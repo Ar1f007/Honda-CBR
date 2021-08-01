@@ -32,6 +32,126 @@
     <title>Honda CBR</title>
   </head>
   <body>
+    <!-- Hero Section  -->
+    <section id="hero">
+      <nav id="nav" class="navbar navbar-expand-md">
+        <div class="container pt-lg-3 px-md-5 pt-xl-4">
+          <button
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+          >
+            <img src="images/toggler-icon.svg" alt="toggler icon" />
+          </button>
+
+          <div id="menu" class="collapse navbar-collapse me-auto">
+            <ul class="navbar-nav align-items-center ms-md-auto">
+              <li class="nav-item">
+                <a href="#hero" class="nav-link"> Home </a>
+              </li>
+              <li class="nav-item ms-xl-4">
+                <a href="#featured-bikes" class="nav-link"> Shop </a>
+              </li>
+              <li class="nav-item ms-xl-4">
+                <a href="#latest-news" class="nav-link"> News </a>
+              </li>
+              <li class="nav-item me-xl-5 ms-xl-4">
+                <a href="#faq" class="nav-link"> FAQs </a>
+              </li>
+              <li class="nav-item ms-md-5">
+                <a
+                  href="#"
+                  class="
+                    nav-link
+                    btn-purchase btn-login
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                  >Login</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container px-md-5">
+        <div class="row px-3 py-5 pt-xl-0">
+          <div class="col-sm-6 d-lg-flex flex-column justify-content-center">
+            <p class="banner-text">
+              Computer-controlled digital transistorized with electronic advance
+            </p>
+            <h1 class="banner-heading">Honda CBR 300R</h1>
+
+            <p class="banner-text-big banner-text">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <!-- <a href="#" class="btn btn-purchase"> Purchase </a> -->
+
+            <button
+              type="button"
+              class="
+                btn btn-purchase
+                d-flex
+                justify-content-center
+                align-items-center
+              "
+              data-bs-toggle="modal"
+              data-bs-target="#purchaseModal"
+            >
+              Purchase
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="purchaseModal"
+              tabindex="-1"
+              aria-labelledby="purchaseModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    Purchase method is unavailable at the moment.
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 mt-5 rectangle-img">
+            <img
+              src="images/header-bike.png"
+              alt="hero image"
+              class="d-block w-100"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Hero Section  -->
+
     <!-- Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

@@ -1,3 +1,74 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+/* Hero section */
+#hero,
+#menu {
+  background-color: #264653;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+
+#hero .nav-link {
+  color: #fff;
+  font-size: 1rem;
+}
+
+#hero .btn-login {
+  width: 5.625rem;
+  height: 2.75rem;
+}
+
+.banner-heading,
+.banner-text {
+  color: #fff;
+}
+
+.banner-heading {
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.banner-text {
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.banner-text-big {
+  font-weight: 300;
+  line-height: 1.5;
+  color: #e0e0e0;
+  margin: 1.25rem 0;
+}
+
+.btn-purchase {
+  width: 10.5rem;
+  height: 2.75rem;
+  padding: 10px;
+  background: #e76f51;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+#hero .btn-purchase:focus,
+#hero .btn-purchase:active {
+  outline: none;
+  box-shadow: none;
+}
+
+#hero .btn-purchase:hover {
+  color: #fff;
+  background-color: #e56342;
+}
+
+#hero .btn-primary:hover {
+  border-color: #e76f51;
+}
+/* End of hero section  */
