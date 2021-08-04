@@ -150,3 +150,35 @@ body {
   border: 1px solid #e76f51;
 }
 /* End of Latest news  */
+
+/* Testimonial section  */
+#testimonials .latest-section-heading {
+  width: 65%;
+  line-height: 54px;
+}
+.latest-section-heading span {
+  color: #e76f51;
+}
+
+#testimonials .card-text {
+  font-size: 1rem;
+  color: #6c6c6c;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.name,
+.occupation {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #23a6f0;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.occupation {
+  color: #000;
+  line-height: 0;
+}
+/* End of Testimonial section  */
