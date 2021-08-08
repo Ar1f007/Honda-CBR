@@ -277,3 +277,38 @@ body {
   font-weight: 400;
 }
 /* End of footer */
+
+/* Responsive */
+@media (max-width: 576px) {
+  #faq .first-part {
+    width: 100%;
+    display: block;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  html {
+    font-size: 80%;
+  }
+
+  #latest-news .card-2-title {
+    font-size: 1.45rem;
+    line-height: 35px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #faq img {
+    width: 80%;
+  }
+
+  .sub-heading::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 40%;
+    border: 1px solid #e76f51;
+  }
+}
