@@ -312,3 +312,43 @@ body {
     border: 1px solid #e76f51;
   }
 }
+
+@media (min-width: 1366px) {
+  #hero .banner-heading {
+    font-size: 3rem;
+  }
+
+  #hero .banner-text-big {
+    width: 80%;
+  }
+
+  #hero img {
+    position: relative;
+    z-index: 1;
+  }
+
+  #hero .rectangle-img {
+    position: relative;
+  }
+
+  #hero .rectangle-img::after {
+    content: url(images/rectangle.svg);
+    position: absolute;
+    right: 0.8rem;
+    top: 3.3rem;
+  }
+
+  .section-heading,
+  .latest-section-heading {
+    font-size: 3rem;
+  }
+
+  .section-heading {
+    line-height: 50px;
+  }
+
+  #faq img {
+    width: 70%;
+  }
+}
+/* End of Responsive */
